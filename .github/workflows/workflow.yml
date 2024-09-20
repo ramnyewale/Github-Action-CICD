@@ -2,10 +2,10 @@ name: Deploy Lambda Function
 
 on:
   push:
-    paths:
-      - "src/**"
     branches:
       - master
+#    paths:
+#      - "src/**"
 
 jobs:
   deploy:
