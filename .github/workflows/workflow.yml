@@ -8,7 +8,7 @@ on:
 #      - "src/**"
 
 jobs:
-  deploy:
+  Deploy Lambda Function:
     runs-on: ubuntu-latest
 
     steps:
