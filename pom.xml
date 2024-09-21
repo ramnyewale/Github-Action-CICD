@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.dev</groupId>
 	<artifactId>GithubCICD</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>GithubCICD</name>
+	<version>1.0.0</version>
+	<name>github-cicd</name>
 	<description>Demo project for Spring Boot and Github action CICD</description>
 	<url/>
 	<licenses>
