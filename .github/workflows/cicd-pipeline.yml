@@ -36,7 +36,7 @@ jobs:
 
     - name: build and push docker image
       env:
-        ECR_REGISTRY: ${{secrets.AWS_ECR_REGISTRY}} #${{steps.login-pf-aws-ecr.output.registry}}
+        ECR_REGISTRY: 565544423927.dkr.ecr.ap-south-1.amazonaws.com #${{steps.login-pf-aws-ecr.output.registry}}
         ECR_REPOSITORY: ${{secrets.REPO_NAME}}
         IMAGE_TAG: ${{github.sha}}
 
